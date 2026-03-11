@@ -18,6 +18,10 @@ Task tool (general-purpose):
 
     [From implementer's report]
 
+    ## Tooling Context
+
+    [List any semantic IDE/LSP tools available in this run and tell the subagent to prefer them for symbol-aware work.]
+
     ## CRITICAL: Do Not Trust the Report
 
     The implementer finished suspiciously quickly. Their report may be incomplete,
@@ -35,6 +39,8 @@ Task tool (general-purpose):
     - Look for extra features they didn't mention
 
     ## Your Job
+
+    Use the tools from Tooling Context for symbol-aware verification; otherwise use plain-text search and direct file reading.
 
     Read the implementation code and verify:
 

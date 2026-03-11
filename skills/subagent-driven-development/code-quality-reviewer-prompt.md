@@ -12,6 +12,7 @@ Task tool (superpowers:code-reviewer):
 
   WHAT_WAS_IMPLEMENTED: [from implementer's report]
   PLAN_OR_REQUIREMENTS: Task N from [plan-file]
+  TOOLING_CONTEXT: [list any semantic IDE/LSP tools available in this run and tell the reviewer to prefer them for symbol-aware review work]
   BASE_SHA: [commit before task]
   HEAD_SHA: [current commit]
   DESCRIPTION: [task summary]

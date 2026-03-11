@@ -17,6 +17,12 @@ You are reviewing code changes for production readiness.
 
 {PLAN_REFERENCE}
 
+## Tooling Context
+
+{TOOLING_CONTEXT}
+
+Use the tools from Tooling Context for symbol-aware review work; otherwise use git diff, plain-text search, and direct file reading.
+
 ## Git Range to Review
 
 **Base:** {BASE_SHA}

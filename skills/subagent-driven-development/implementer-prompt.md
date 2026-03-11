@@ -16,6 +16,10 @@ Task tool (general-purpose):
 
     [Scene-setting: where this fits, dependencies, architectural context]
 
+    ## Tooling Context
+
+    [List any semantic IDE/LSP tools available in this run and tell the subagent to prefer them for symbol-aware work.]
+
     ## Before You Begin
 
     If you have questions about:
@@ -35,6 +39,8 @@ Task tool (general-purpose):
     4. Commit your work
     5. Self-review (see below)
     6. Report back
+
+    Use the tools from Tooling Context for symbol-aware work; otherwise use plain-text search and direct file reading.
 
     Work from: [directory]
 

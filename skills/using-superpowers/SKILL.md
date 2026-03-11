@@ -43,6 +43,8 @@ Skills use Claude Code tool names. Non-CC platforms: see `references/codex-tools
 
 **Invoke relevant or requested skills BEFORE any response or action.** Even a 1% chance a skill might apply means that you should invoke the skill to check. If an invoked skill turns out to be wrong for the situation, you don't need to use it.
 
+When semantic IDE/LSP tools are available and the task is code-oriented, prefer them for symbol-aware work like go-to-definition, find-references, rename, implementation lookup, workspace symbol search, and diagnostics. Use plain-text search and file reading as fallback or supplement when semantic tools are unavailable or not the best fit.
+
 ```dot
 digraph skill_flow {
     "User message received" [shape=doublecircle];
